@@ -1,10 +1,48 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btns {
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 20vw;
+  height: 8vh;
+  border: none;
+  background-color: #6087fb;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 2px;
+}
+
+.App table {
+  width: 100vw;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App table tr {
+  padding: 10px;
+}
+.App table th {
+  background-color: #60adfb;
+  color: #fff;
+  height: 5vh;
+  width: 8vw;
+  padding: 2px;
+  font-size: 1.2rem;
+}
+
+.App table td {
+  width: 12vw;
+  font-size: 1.1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
