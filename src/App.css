@@ -5,6 +5,11 @@
   justify-content: space-around;
 }
 
+h1 {
+  font-size: 4rem;
+  color: #0505c7;
+}
+
 .btns {
   width: 70vw;
   display: flex;
@@ -23,16 +28,22 @@
   padding: 2px;
 }
 
+.btn:hover {
+  background-color: #3869fa;
+  /* color: #cdd9fe; */
+}
+
 .App table {
-  width: 100vw;
   text-align: center;
+  padding: 40px;
+  border-collapse: collapse;
 }
 
 .App table tr {
   padding: 10px;
 }
 .App table th {
-  background-color: #60adfb;
+  background-color: #fb8760;
   color: #fff;
   height: 5vh;
   width: 8vw;

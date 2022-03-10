@@ -81,7 +81,6 @@ function App() {
                   style={{
                     width: "12vw",
                     height: "5vh",
-                    backgroundColor: "#fb6060",
                   }}
                   className="btn"
                   onClick={() => {
